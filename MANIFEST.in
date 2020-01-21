@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_cloud_migrator *.css
+recursive-include frappe_cloud_migrator *.csv
+recursive-include frappe_cloud_migrator *.html
+recursive-include frappe_cloud_migrator *.ico
+recursive-include frappe_cloud_migrator *.js
+recursive-include frappe_cloud_migrator *.json
+recursive-include frappe_cloud_migrator *.md
+recursive-include frappe_cloud_migrator *.png
+recursive-include frappe_cloud_migrator *.py
+recursive-include frappe_cloud_migrator *.svg
+recursive-include frappe_cloud_migrator *.txt
+recursive-exclude frappe_cloud_migrator *.pyc
